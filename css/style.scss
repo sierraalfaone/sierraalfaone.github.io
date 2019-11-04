@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
+
+$color-blue: #000BFF;
+
+
+body, html, input, select, textarea, button {
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.huge {
+    font-size: 7vw;
+    line-height: 104%;
+    font-weight: 400;
+}
+
+.lead {
+    font-size: 2.5vw;
+    line-height: 122%;
+}
+
+.logo {
+    height: 2.5vw;
+}
+
+.bg {
+    &-dark {
+        height: 100%;
+        background-image: url("../img/terrain.svg");
+        background-size: cover;
+        background-color: $color-blue;
+        color:white;
+        padding: 5vw;
+        margin: 2vw;
+    }
+}
+
+.skrollable {
+    position: relative;
+}
+
+.text {
+    &-white {
+        color:white;
+        border-bottom: 5px solid yellow;
+        &:hover {
+            opacity: 0.7;
+            border-width: 6px;
+        }
+    }
+}
