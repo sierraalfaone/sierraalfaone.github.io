@@ -3,46 +3,38 @@ body, html, input, select, textarea, button {
   font-family: "DM Sans", sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-.huge {
-  font-size: 7vw;
-  line-height: 104%;
-  font-weight: 400;
-}
-
-.lead {
-  font-size: 2.5vw;
-  line-height: 122%;
-}
-
-.logo {
-  height: 2.5vw;
-}
-
-.bg-dark {
-  height: 100%;
+.bg-primary {
   background-image: url("../img/terrain.svg");
   background-size: cover;
-  background-color: #000BFF;
+  background-color: #000BFF !important;
   color: white;
-  padding: 5vw;
-  margin: 2vw;
 }
 
-.skrollable {
+.tarmac a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
   position: relative;
+  z-index: 100;
 }
-
-.text-white {
-  color: white;
-  border-bottom: 5px solid yellow;
+.tarmac a:after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: yellow;
+  height: 4px;
+  width: 100%;
+  top: 0;
+  margin-bottom: -12px;
+  transition: all 0.1s ease-in-out;
+  z-index: -50;
 }
-.text-white:hover {
-  opacity: 0.7;
-  border-width: 6px;
+.tarmac a:hover {
+  color: black;
+}
+.tarmac a:hover:after {
+  height: 44px;
+  margin-top: -40px;
 }
 
 /*# sourceMappingURL=style.css.map */
