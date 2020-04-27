@@ -1,40 +1,144 @@
-@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body, html, input, select, textarea, button {
-  font-family: "DM Sans", sans-serif;
+    font-family: 'VT323', monospace;
 }
 
-.bg-primary {
-  background-image: url("../img/terrain.svg");
-  background-size: cover;
-  background-color: #000BFF !important;
-  color: white;
+.img-fluid {
+    width: 100%;
 }
 
-.tarmac a {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-  z-index: 100;
-}
-.tarmac a:after {
-  content: "";
-  display: inline-block;
-  position: relative;
-  background-color: yellow;
-  height: 4px;
-  width: 100%;
-  top: 0;
-  margin-bottom: -12px;
-  transition: all 0.1s ease-in-out;
-  z-index: -50;
-}
-.tarmac a:hover {
-  color: black;
-}
-.tarmac a:hover:after {
-  height: 44px;
-  margin-top: -40px;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-/*# sourceMappingURL=style.css.map */
+.space-huge {
+    margin: 6rem 0;
+}
+
+.underline {
+    border-bottom: 4px solid red;
+}
+
+
+p {
+    font-size: 1.2rem;
+}
+
+.huge {
+    font-size: 5rem;
+}
+
+.huge-sm {
+    font-size: 3rem;
+}
+
+.huge-ty {
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 0;
+}
+
+
+
+.bg-white {
+    background-color: white;
+}
+
+.padme {
+    padding: 2rem;
+}
+
+.logo {
+    width: 133px;
+    height: 133px;
+    transform: scale(2);
+    transform-origin: top left;
+    position: absolute;
+    margin-left: -200px;
+    display: inline-block;
+    background-image: url("../img/logo.png");
+    background-position: -133px 0;
+    background-size: auto 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.cover:hover .logo {
+    background-position: 266px 0;
+    z-index: 100;
+    margin-left: 0px;
+}
+
+.cover img {
+    cursor: crosshair;
+    transition: all 0.2s ease-out;
+    z-index: 100;
+}
+
+.cover:hover img {
+    transform: scale(1.2);
+    filter: brightness(25%);
+    z-index: 100;
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group span, .form-group {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.form-control {
+    font-size: 1.2rem;
+    border: 2px solid black;
+    padding: 0.5rem;
+    outline: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    box-shadow:  4px 4px 0 black;
+}
+
+
+.btn {
+    display: block;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    display: block;
+    font-size: 1.5rem;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.img-splitter {
+    height: 60vh;
+    background-color: black;
+    background-image: url("../img/section_form.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
