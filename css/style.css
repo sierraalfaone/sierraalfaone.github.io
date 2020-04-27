@@ -42,8 +42,6 @@ h1, h2, h3, h4, h5 {
     margin-top: 0;
 }
 
-
-
 .bg-white {
     background-color: white;
 }
@@ -83,6 +81,51 @@ h1, h2, h3, h4, h5 {
     filter: brightness(25%);
     z-index: 100;
 }
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .space-huge {
+        margin: 1rem 0;
+    }
+
+    .huge {
+        font-size: 3rem;
+    }
+    
+    .huge-sm {
+        font-size: 1.6rem;
+    }
+    
+    .huge-ty {
+        font-size: 1rem;
+    }
+
+    .padme {
+        padding: 1rem;
+    }
+
+    .logo {
+       transform: scale(1);
+       margin-left: 20px !important;
+       margin-top: 20px;
+       background-position: -266px;
+       z-index: 10000;
+    }
+
+    .cover img {
+        filter: brightness(25%);
+        transform: scale(1) !important;
+    }
+    
+}
+
+
+
+
 
 
 .form-group {
@@ -141,4 +184,20 @@ ol li {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+
+.show-mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .img-splitter {
+        height: 40vh;
+        background-attachment: local;
+    }
+
+    .show-mobile {
+        display: block;
+    }
 }
