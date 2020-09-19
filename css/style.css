@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
-
-body, html, input, select, textarea, button {
-    font-family: 'Averia Serif Libre', monospace;
-}
-
 body, html {
     background-color: #fefef4;
     color: #242623;
