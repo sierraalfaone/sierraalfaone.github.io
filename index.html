@@ -1,57 +1,175 @@
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
-    />
-    <title>Sierra Alfa One - Digital Product Design and Consulting</title>
-    <meta
-      name="description"
-      content="Boutique Digital product design studio with goal of keeping things simple."
-    />
-    <meta name="author" content="SA1" />
+   <head>
+      <meta charset="utf-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+         />
+      <title>Sierra Alfa One - Digital Product Design and Consulting</title>
+      <meta
+         name="description"
+         content="Boutique Digital product design studio with goal of keeping things simple."
+         />
+      <meta name="author" content="SA1" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+   </head>
+   <body>
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue-carousel@0.18.0/dist/vue-carousel.min.js"></script>
-  </head>
-
-  <body>
-  <div id="app">
-
-
-    <section class="container space-huge">
-      <div class="row">
-        <div class="col-md-10 col-lg-8">
-          
-          <div class="logo">
-            <div class="logo-dots"></div>
-            <div class="logo-text"></div>
-          </div>
-
-          <img src="img/rotator.svg" class="rotator" />
-          <h1 class="huge tagline">That was a good <span class="underline">flight.</span></h1>
-
-          <p class="lead">On August 2017, I had the choice to take this further or do something else with my life. I decided to do something else, and not this, and joined forces with <a href="https://lftechnology.com" class="underline">Leapfrog Technology</a> and have since been leading the awesome design team out there.</p>
-
-          <p>As a result, this project never kicked off really except for few shadow design projects I completed between the summer of 2016 and 2017 under the name Sierra Alfa One. That's all now a history. This page is no longer maintained and I'm not accepting any new project contracts under this name.</p>
-          
-          <p>Thank you for your interest in Sierra Alfa One.</p>
-
-          <p><a href="twitter.com/swwwwwapnil" class="underline">Tweet me up</a> if you want to get in touch with me.</p>
-        </div>
-
-     
+      <div class="backgrid">
+         <section class="container h-100">
+            <div class="row h-100">
+               <div class="col-2 stroke h-100"></div>
+               <div class="col-2 stroke h-100"></div>
+               <div class="col-2 stroke h-100"></div>
+               <div class="col-2 stroke h-100"></div>
+               <div class="col-2 stroke h-100"></div>
+               <div class="col-2 stroke h-100"></div>
+            </div>
+         </section>
       </div>
-    </section>
+
+
+      <div class="mobile-content p-5 d-block d-md-none">
+         <img src="img/logo.svg" alt="Sierra Alfa One" class="logo" />
+         <h1>Things will break in mobile.</h1>
+         <p>We have not had time to make this thing responsive.</p>
+      </div>
+
+      
+      <div class="main-content d-none d-md-block" data-scroll-container>
+
+         
+         <section class="hero" data-scroll-section>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-10">
+                     <img src="img/logo.svg" alt="Sierra Alfa One" class="logo" />
+                     <h1 data-scroll>What is the power of a <span class="white">thought</span> you may ask.</h1>
+                  </div>
+                  <div class="col-md-2">
+                     <img src="img/rotator.svg" alt="Rotator" class="rotator" />
+                  </div>
+                  <div class="col-md-8 offset-md-2">
+                     <p class="lead" data-scroll>Ever wondered how a creative person thinks? How they’re able to pull ideas out of thin air and turn them into meaningful solutions? Everything begins with a thought - and a thought can change the world.</p>
+                     <button  data-scroll>Get in touch</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+   
+         <section class="taas padding" id="taas" data-scroll-section>
+            <p class="taas-header" data-scroll data-scroll-direction="horizontal" data-scroll-target="#taas">Thought as</p>
+            <p class="taas-header taas-outline" data-scroll data-scroll-direction="horizontal" data-scroll-target="#taas">a service</p>
+         </section>
+   
+
+
+         <section class="services padding">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-7" >
+                     <h2 class="slug">Who we are</h2>
+                     <p class="lead gray"><strong>Thinking is hard. With so much noise and clutter and the lack of direction, it’s oftentimes difficult to predict the fate of your business without a proper thought process in place. We’re here to help.</strong></p>
+                     <p>We are a Thought-as-a-Service (TaaS) company offering broad range of digital consulting, transformation and design thinking services.</p>
+                     <p>Our founders have had decades of experience with all things design. With a proven track-record of successful stories, we’re here to soar the skies.</p>
+                     <p>Sierra Alfa One - cleared for takeoff.</p>
+                  </div>
+                  <div class="col-lg-2 col-md-4 ml-auto">
+                     <p class="slug">Some companies we have worked with</p>
+                     <ul class="list">
+                        <li>Foodmandu</li>
+                        <li>Lenden</li>
+                        <li>Honda</li>
+                        <li>Mila Productions</li>
+                        <li>City Express</li>
+                        <li>ThamelRemit</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+   
 
 
 
+         <section class="services padding">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 band-wrapper">
+                     <h2 class="slug">What we do</h2>
+                     <img src="img/band_content.svg" alt="Content" class="band-bubble" />
+                  </div>
+                  <div class="col-md-6 offset-md-2">
+                     <div class="content">
+                        <img src="img/animation_design_thinking.svg" alt="" class="icon" />
+                        <h3>Design Thinking</h3>
+                        <p>Need clarity in product direction? Count us in. We employ industry-standard processes and methodologies to conduct user research and surveys. Our six-step proven process of design thinking puts your users first, and gives you clear idea on which path to take.</p>
+                     </div>
+                  </div>
+                  <div class="col-md-6 offset-md-6">
+                     <div class="content">
+                        <img src="img/animation_digital_tranformation.svg" alt="" class="icon" />
+                        <h3>Digital Transformation</h3>
+                        <p>We have helped a number of customers to convert their standard processes into rich cloud-based services that allows them flexibility, transparency and security. Once you go cloud, there is no turning around.</p>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="content">
+                        <img src="img/animation_product_design.svg" alt="" class="icon" />
+                        <h3>Product Design</h3>
+                        <p>Our leaders have decades of experience designing web and mobile products, and we have put that expertise into practice to give you the most functional application designs that get work done. Code not included.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 offset-md-4">
+                     <div class="content">
+                        <img src="img/animation_branding.svg" alt="" class="icon" />
+                        <h3>Branding and Identity</h3>
+                        <p>We have created fantastic brands and helped businesses discover their identity using a defined process that puts their story first. We believe the true way to drive a successful brand is to tell a compelling story, and we’ve refined that skill over the course of time.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
-  </div>
-    <script src="js/app.js"></script>
-  </body>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <img src="img/band_footer.svg" alt="Content" class="band-bubble" />
+                  <h3 class="footer-title">Let's talk</h3>
+               </div>
+               <div class="col-md-6">
+                  <p class="lead">To discuss opportunities in any of these areas, please get in touch with one of our partners.</p>
+                  <button  data-scroll>Send an email</button>
+               </div>
+               <div class="col-md-4 ml-auto">
+                  <ul class="list">
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">Instagram</a></li>
+                     <li><a href="#">LinkedIn</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+
+         
+      </div>
+
+
+
+      <script src="js/locomotive-scroll.min.js"></script>
+      <script type="javascript">
+         var scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+             smooth: true,
+             smoothMobile: true,
+             getDirection: true
+         });
+      </script>
+
+   </body>
 </html>
