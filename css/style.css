@@ -60,6 +60,9 @@ h3 {
     color: gray;
 }
 
+
+
+
 .taas {
     line-height: 0.8;
     width: 100%;
@@ -77,6 +80,11 @@ h3 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
+
+
+
+
+
 
 
 .list {
@@ -238,4 +246,40 @@ a:after {
 }
 .footer-title {
     font-size: 5vw;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body, input, textarea, select, button {
+        font-size: 16px;
+    }
+
+    p {
+        word-wrap: break-word;
+        width: 100%;
+        display: block;
+    }
+
+    .taas-header, .footer-title {
+        font-size: 42px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .lead {
+        font-size: 18px;
+    }
+
+    .logo, .icon {
+        height: 72px;
+    }
 }
